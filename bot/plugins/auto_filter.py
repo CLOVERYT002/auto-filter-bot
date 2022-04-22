@@ -93,17 +93,17 @@ async def auto_filter(bot, update):
             if file_size < 1024:
                 file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
-                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
+                file_size = f"[{str(round(file_size/1024, 2))} KB] "
             elif file_size < (1024**3):
-                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
+                file_size = f"[{str(round(file_size/(1024**2), 2))} MB] "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
+                file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size}{file_name}"
+            button_text = f" ◽️{file_size} ➪ {file_name}"
             
 
             if file_type == "video":
@@ -169,13 +169,13 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("⭕️Next ⭕️", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📝 Page 1/{len_result if len_result < max_pages else max_pages} 📝", callback_data="ignore")
         ])
         
         
@@ -225,7 +225,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
+                text=f"🗂️𝑻𝒐𝒕𝒂𝒍 𝑭𝒊𝒍𝒆 {(len_results)} 🎬𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
