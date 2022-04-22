@@ -53,7 +53,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👮 Developer 👮', url="https://t.me/c/1417456571/587"
+                                    '💢 Join main channel 💢', url="https://t.me/MM_CINEMA_CLUB"
                                 )
                         ]
                     ]
@@ -65,10 +65,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👮 Developers', url='https://t.me/c/1417456571/587'),
-        InlineKeyboardButton('Source Code 👨‍💻', url ='https://github.com/tgbotsProject/auto-filter-bot')
+        InlineKeyboardButton('👮 Owner ', url='https://t.me/CLOVERDZ'),
+        InlineKeyboardButton('Join my channel 📺', url ='https://t.me/MM_CINEMA_CLUB')
     ],[
-        InlineKeyboardButton('👥 Support 👥', url='https://t.me/izaute/5')
+        InlineKeyboardButton('👥 Support Group 👥', url='https://t.me/Moviez_group_mg')
     ],[
         InlineKeyboardButton('🆘 Help & Information 🆘', callback_data="help")
     ]]
