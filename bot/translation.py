@@ -25,10 +25,11 @@ class Translation(object):
     START_TEXT = """<b>Hello {}!!</b>
 <u>I Am Auto Filter Bot</u>
 
-<b>Add me to your Group And Channel And Connect Them And See My Magic.
+<b>നീ ഏതാ മോനൂസെ എന്നെ സിനിമ ക്ലബ്‌ ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ പറ്റൂ...
+ വെറുതെ സമയം കളയാൻ നിൽക്കണ്ട...വേഗം ഗ്രൂപ്പിലേക്ക് വിട്ടോ സിനിമ അവിടെ കിട്ടും...🤭
 
 For More Details Click Help Button Below.
-Please Subscribe <a href='https://t.me/c/1481808444/140'>❤️ @tgbotsProject</a>
+Please Subscribe <a href='https://t.me/MM_CINEMA_CLUB'>👉 @Moviez_group_mg</a>
 </b>"""    
     
     HELP_TEXT = """
@@ -55,14 +56,14 @@ Please Subscribe <a href='https://t.me/c/1481808444/140'>❤️ @tgbotsProject</
   • <b>Configure</b> - Button Will Helps You To Change No. of Pages/ Buttons Per Page/ Total Result Without Acutally Editing The Repo... Also It Provide Option To Enable/Disable For Showing Invite Link In Each Results.
   • <b>Status</b> - Button Will Shows The Stats Of Your Channel.
             
-<b>Please Subscribe</b> <a href='https://t.me/c/1481808444/140'>❤️ @tgbotsProject</a>
+<b>Please Subscribe</b> <a href='https://t.me/MM_CINEMA_CLUB'>❤️ @Moviez_group_mg</a>
 """
     
-    ABOUT_TEXT = """<b>▷ Name</b>: Auto Filter Bot
-<b>▷ Creator</b>: <b><a href="https://t.me/c/1417456571/587">Zaute Km</a></b>
+    ABOUT_TEXT = """<b>▷ Name</b>: CLOVER ♣️
+<b>▷ Owner </b>: <b><a href="https://t.me/CLOVERDZ">CLOVER</a></b>
 <b>▷ Language</b>: <code>Python3</code>
 <b>▷ Library</b>: <a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a>
-<b>▷ Source Code</b>: <a href="https://github.com/tgbotsProject/Auto-Filter-Bot">Click me</a>
+<b>▷ join channel</b>: <a href="https://t.me/MM_CINEMA_CLUB">Click me</a>
 
-<b>Please Subscribe</b> <a href='https://t.me/c/1481808444/140'>❤️ @tgbotsProject</a>
+<b>Please Subscribe</b> <a href='https://t.me/MM_CINEMA_CLUB'>❤️ @Moviez_group_mg</a>
 """
